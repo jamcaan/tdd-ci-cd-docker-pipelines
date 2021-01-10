@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hoaxifydb
+    username: root
+    password: mjama
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
